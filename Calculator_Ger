@@ -1,0 +1,14 @@
+zahl1=float(input("Zahl 1 Eingeben"))
+zahl2=float(input("Zahl 2 Eingeben"))
+zeichen=input("Wählen Sie zwischen (+)(-)(*)(/)")
+
+if zeichen == "+":
+    print ("Ergebnis:",zahl1+zahl2)
+elif zeichen == "-":
+    print ("Ergebnis:",zahl1-zahl2)
+elif zeichen == "*":
+    print ("Ergebnis:",zahl1*zahl2)
+elif zeichen == "/":
+    print ("Ergebnis:",zahl1/zahl2)
+else:
+    print ("Du Opfer!, Das ist der Falsche OPERATOR!!!")
