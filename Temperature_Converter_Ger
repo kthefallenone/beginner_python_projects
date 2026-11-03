@@ -1,0 +1,14 @@
+temperaturart=float(input("Wählen Sie die zu erwartende Temperatur: Celsius (1) und Fahrenheit (2) ! : "))
+temperatur=float(input("Geben Sie nun die zu umwandelnde Temperatur ein ! : "))
+
+
+celsius=(temperatur-32)*5/9
+fahrenheit=temperatur*9/5+32
+
+
+if temperaturart == 1:
+    print("Die umgerechnete Temperatur in Celsius lautet",celsius,"C")
+elif temperaturart == 2:
+    print("Die umgerechnete Temperatur in Fahrenheit lautet",fahrenheit,"F")
+else:
+    print("FEHLER !!! CODE RED !!!")
